@@ -52,9 +52,9 @@ string[] DetermineLengthElementFormNewArrayStrings(string[] set)
         {
             count++;
             temp = new string[count];
-            for (int l = 0; l < temp.Length - 1; l++)
+            for (int j = 0; j < temp.Length - 1; j++)
             {
-                temp[l] = arrstring[l];
+                temp[j] = arrstring[j];
             }
             temp[count - 1] = k;
             arrstring = temp;
